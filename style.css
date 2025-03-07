@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    background-color:#F7F9FF;
+   
 }
 .navbar {
     display: flex;
@@ -43,8 +43,8 @@
 .navbuttons .login {
     text-decoration: none;
     color: black;
-    border: 1px solid #5978ff;
-    padding: 5px 10px;
+    border: 1.5px solid #5978ff;
+    padding: 10px 20px;
     border-radius: 10px;
     font-family: "Poppins", sans-serif;
 }
@@ -52,8 +52,8 @@
     text-decoration: none;
     background: #5978ff;
     color: white;
-    padding: 5px 15px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
     margin-left: 10px;
 }
 .h {
@@ -61,6 +61,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 70px;
+    background-image: url('background.png'); 
+    background-position: center top -100px;
+}
+.page2{
+    margin-top: 100px;
+}
+.thirdpg{
+    background-image: url(bg3.png);
+    background-position: center top -100px;
 }
 .hcontent {
     max-width: 50%;
@@ -70,13 +79,17 @@
     font-weight: bold;
     font-family: gilroy-bold;
     margin-left: auto;
-    padding-left:50px
+    padding-left:50px;
+    
 }
 .highlight {
     color:#5978ff;
     font-weight: bold;
     font-family: gilroy-bold;
     text-align: justify;
+}
+.arrow{
+    margin-top: -20px;
 }
 .htext {
     font-family: gilroy-medium;
@@ -98,25 +111,29 @@
     padding-top: 0px;
 }
 .feature {
-    padding: 5px 0px;
+    padding: 1px 0px;
+    margin-top: -20px;
 }
 .tic2{
     float: inline-start;
     padding: 5px 1px;
+    margin-top: -20px;
 }
 .tic1{
     float:inline-start;
     padding: 4px 17px;
+    margin-top: -20px;
 }
 .downbutton {
     display:inline-flex;
     background:#5978ff;
     color: white;
-    padding: 10px 25px;
+    padding: 17px 36px;
     border-radius: 12px;
     text-decoration: none;
-    margin-top:0px;
-    margin-left: 50px;  
+    margin-top: -20px;
+    margin-left: 50px; 
+    
 }
 .himage {
     position:relative;
@@ -134,13 +151,14 @@
     border-width: 4px;
 }
 .f2 img {
-    margin-top: -40px;
+    margin-top: -50px;
     padding-left: 300px;
 }
 .f1{
     float:left;
-    margin-top: -15px;
-    padding-left:-10px;
+    margin-top: -20px;
+    padding-left: 14px;
+    margin: 5;
 }
 .actions{
   text-align: center;
@@ -246,6 +264,5 @@ text-align: center;
     letter-spacing: 0%;
     text-align: center;
     }
-    .rate{
-        
-    }
+    
+    
